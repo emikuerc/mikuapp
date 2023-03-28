@@ -35,5 +35,4 @@ interface data {
 
   await nlp.addCorpora(corpora);
   await nlp.train();
-  writeFileSync(join(__dirname, 'model.json'), nlp.export(true));
 })();
