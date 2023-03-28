@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { containerBootstrap } from '@nlpjs/core';
 import { Nlp } from '@nlpjs/nlp';
 import { LangEn } from '@nlpjs/lang-en';
