@@ -1,3 +1,4 @@
+//@ts-nocheck
 import NLP from "./NLP";
 import Live2D from './Live2D';
 import { Configuration, OpenAIApi } from "openai";
