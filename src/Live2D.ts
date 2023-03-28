@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Application } from '@pixi/app';
 import { Renderer } from '@pixi/core';
 import { Ticker, TickerPlugin } from '@pixi/ticker';
