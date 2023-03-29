@@ -1,0 +1,100 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "230. blue hair and casual style .moc3",
+		"Textures": [
+			"230. blue hair and casual style .4096/texture_00.png"
+		],
+		"Physics": "230. blue hair and casual style .physics3.json",
+		"DisplayInfo": "230. blue hair and casual style .cdi3.json"
+	},
+	"hit_areas": [
+        {
+            "name": "head",
+            "id": "D_REF.HEAD"
+        },
+        {
+            "name": "body",
+            "id": "D_REF.BODY"
+        }
+    ],
+    "motions": {
+        "idle": [
+            {
+                "file": "mtn/idle_00.mtn",
+                "fade_in": 2000,
+                "fade_out": 2000
+            },
+            {
+                "file": "mtn/idle_01.mtn",
+                "fade_in": 2000,
+                "fade_out": 2000
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "mtn/tapBody_00.mtn"
+            },
+            {
+                "file": "mtn/tapBody_01.mtn"
+            },
+            {
+                "file": "mtn/tapBody_02.mtn"
+            }
+        ],
+        "pinch_in": [
+            {
+                "file": "mtn/pinchIn_00.mtn"
+            },
+            {
+                "file": "mtn/pinchIn_01.mtn"
+            },
+            {
+                "file": "mtn/pinchIn_02.mtn"
+            }
+        ],
+        "pinch_out": [
+            {
+                "file": "mtn/pinchOut_00.mtn"
+            },
+            {
+                "file": "mtn/pinchOut_01.mtn"
+            },
+            {
+                "file": "mtn/pinchOut_02.mtn"
+            }
+        ],
+        "shake": [
+            {
+                "file": "mtn/shake_00.mtn",
+                "fade_in": 500
+            },
+            {
+                "file": "mtn/shake_01.mtn",
+                "fade_in": 500
+            },
+            {
+                "file": "mtn/shake_02.mtn",
+                "fade_in": 500
+            }
+        ],
+        "flick_head": [
+            {
+                "file": "mtn/flickHead_00.mtn"
+            },
+            {
+                "file": "mtn/flickHead_01.mtn"
+            },
+            {
+                "file": "mtn/flickHead_02.mtn"
+            }
+        ]
+    },
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
