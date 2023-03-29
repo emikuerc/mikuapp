@@ -91,7 +91,7 @@ function fitModel() {
 
   const anchor = {
     x: breakpoint.lg ? 1.2 : 0.5,
-    y: breakpoint.lg ? 0.35 : 0.8
+    y: breakpoint.lg ? 0.5 : 0.85
   };
 
   const scale = {
