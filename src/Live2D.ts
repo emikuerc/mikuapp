@@ -16,7 +16,7 @@ const app = new Application({
   view: canvas,
 });
 
-const model = await Live2DModel.from('../lev/230. blue hair and casual style .model3.json', {
+const model = await Live2DModel.from('lev/230. blue hair and casual style .model3.json', {
   autoInteract: false,
   motionPreload: MotionPreloadStrategy.IDLE
 });
