@@ -16,7 +16,7 @@ const app = new Application({
   view: canvas,
 });
 
-const model = await Live2DModel.from('live2d/shizuku.model.json', {
+const model = await Live2DModel.from('lev/230. blue hair and casual style .model3.json', {
   autoInteract: false,
   motionPreload: MotionPreloadStrategy.IDLE
 });
@@ -90,13 +90,13 @@ function fitModel() {
   app.renderer.screen.height = window.innerHeight;
 
   const anchor = {
-    x: breakpoint.lg ? 1 : 0.5,
-    y: 0.85
+    x: breakpoint.lg ? 1.2 : 0.5,
+    y: breakpoint.lg ? 0.35 : 0.8
   };
 
   const scale = {
-    x: breakpoint.lg ? 0.4 : breakpoint.md ? 0.35 : 0.25,
-    y: breakpoint.lg ? 0.475 : breakpoint.md ? 0.425 : 0.3
+    x: breakpoint.lg ? 0.3 : breakpoint.md ? 0.35 : 0.15,
+    y: breakpoint.lg ? 0.3 : breakpoint.md ? 0.425 : 0.15
   };
 
   const width = breakpoint.md
